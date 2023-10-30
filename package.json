@@ -1,0 +1,16 @@
+{
+  "name": "@bctnry/oiml-core",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node ./lib/main.js",
+    "test": "node ./lib/test.js"
+  },
+  "author": "Zetian Lin",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
