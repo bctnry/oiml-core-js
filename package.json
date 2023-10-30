@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bctnry/oiml-core-js.git"
+    "url": "git+https://github.com/bctnry/oiml-core-js.git"
   },
   "scripts": {
     "build": "npx tsc",
