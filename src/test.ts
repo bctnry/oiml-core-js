@@ -38,7 +38,7 @@ test('cmd2', res_cmd2.length === 1, "should output 1 block");
 test('cmd2', res_cmd2[0].B === undefined, "should have no B part.");
 test('cmd2', res_cmd2[0].C === undefined, "should have no C part.");
 test('cmd2', res_cmd2[0].A, "should have an A part.");
-test('cmd2', res_cmd2[0].A!.length === 7, "should have an A part of length 5.");
+test('cmd2', res_cmd2[0].A!.length === 7, "should have an A part of length 7.");
 test('cmd2', typeof res_cmd2[0].A![0] === 'string', "first element of A part should be string.");
 test('cmd2', typeof res_cmd2[0].A![1] === 'string', "second element of A part should be string.");
 test('cmd2', typeof res_cmd2[0].A![2] === 'string', "third element of A part should be string.");
