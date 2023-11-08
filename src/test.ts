@@ -135,6 +135,12 @@ test('cmd8', Array.isArray(res_cmd8[0].A![1]), "the second element of A should b
 test('cmd8', (res_cmd8[0].A![1] as any)[0] === "b", "the key of the second element of A should be \"b\"");
 test('cmd8', (res_cmd8[0].A![1] as any)[1] === 3, "the value of the second element of A should be 3");
 
+let cmd9 = "a b c\nd e f";
+let res_cmd9 = parse(cmd9);
+test('cmd9', res_cmd9.length === 2, "should output 2 block");
+test('cmd9', res_cmd9[0].B === undefined, "first block should not have any B part.");
+test('cmd9', res_cmd9[1].B === undefined, "second block should not have any B part.");
+
 let block1 = `
 a b c: blahblah
     blah1 blah2 blah3
